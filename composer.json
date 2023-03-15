@@ -1,16 +1,19 @@
 {
-    "name":        "arcanedev/support",
-    "description": "ARCANEDEV Support Helpers",
-    "keywords":    ["arcanedev", "arcanesoft", "support", "laravel"],
-    "homepage":    "https://github.com/ARCANEDEV/Support",
+    "name": "dfynest/support",
+    "description": "Support Helpers",
+    "keywords": [
+        "support",
+        "laravel"
+    ],
+    "homepage": "https://github.com/dfynest/Support",
     "authors": [
         {
-            "name":     "ARCANEDEV",
-            "email":    "arcanedev.maroc@gmail.com",
-            "homepage": "https://github.com/arcanedev-maroc"
+            "name": "dfynest",
+            "email": "imdfynest@gmail.com",
+            "homepage": "https://github.com/dfynest"
         }
     ],
-    "type":    "library",
+    "type": "library",
     "license": "MIT",
     "require": {
         "php": "^8.1",
@@ -24,13 +27,15 @@
     },
     "autoload": {
         "psr-4": {
-            "Arcanedev\\Support\\": "src/"
+            "Dfynest\\Support\\": "src/"
         },
-        "files": ["helpers.php"]
+        "files": [
+            "helpers.php"
+        ]
     },
     "autoload-dev": {
         "psr-4": {
-            "Arcanedev\\Support\\Tests\\": "tests/"
+            "Dfynest\\Support\\Tests\\": "tests/"
         }
     },
     "scripts": {
